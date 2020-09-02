@@ -17,13 +17,13 @@ function Navbar() {
         <div className="container flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="inline-flex">
-            <img src="assets/samarkan-normal.png" className="mx-5"></img>
-            <a
+            <img src={require("../assets/samarkan-normal.png")} className="mx-5 h-12 w-48"></img>
+            {/* <a
               className="text-sm font-bold leading-relaxed inline-block mx-1 mr-4 whitespace-no-wrap uppercase text-black"
               href="#pablo"
             >
               Innovasian
-            </a>
+            </a> */}
             </div>
             <button
               className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -41,13 +41,17 @@ function Navbar() {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul className="flex flex-col lg:flex-row list-none">
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-black opacity-75"></i><span className="ml-2">Share</span>
+                  <i className="fab fa-facebook-square text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
+                    <NavLink to="">
+                    Tickets
+                    </NavLink>
+                    </span>
                 </a>
               </li>
               <li className="nav-item">
@@ -55,7 +59,11 @@ function Navbar() {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-twitter text-lg leading-lg text-black opacity-75"></i><span className="ml-2">Tweet</span>
+                  <i className="fab fa-twitter text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
+                  <NavLink to="">
+                    About
+                    </NavLink>
+                  </span>
                 </a>
               </li>
               <li className="nav-item">
@@ -63,7 +71,11 @@ function Navbar() {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-pinterest text-lg leading-lg text-black opacity-75"></i><span className="ml-2">Pin</span>
+                  <i className="fab fa-pinterest text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
+                  <NavLink to="">
+                    Contact Us
+                    </NavLink>
+                  </span>
                 </a>
               </li>
             </ul>
