@@ -17,7 +17,8 @@ function Navbar() {
         <div className="container flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="inline-flex">
-            <img src={require("../assets/samarkan-normal.png")} className="mx-5 h-12 w-48"></img>
+            <NavLink to="/"></NavLink>
+            <img src={require("../assets/samarkan-normal.png")} className="mx-5 h-12 w-48"/>
             {/* <a
               className="text-sm font-bold leading-relaxed inline-block mx-1 mr-4 whitespace-no-wrap uppercase text-black"
               href="#pablo"
@@ -74,6 +75,18 @@ function Navbar() {
                   <i className="fab fa-pinterest text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
                   <NavLink to="">
                     Contact Us
+                    </NavLink>
+                  </span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
+                  href="#pablo"
+                >
+                  <i className="fab fa-pinterest text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
+                  <NavLink to="">
+                    Sponsors
                     </NavLink>
                   </span>
                 </a>
