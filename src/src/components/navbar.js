@@ -17,7 +17,7 @@ function Navbar() {
         <div className="container flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="inline-flex">
-            <img src="./assets/logo.jpg" className="mx-5"></img>
+            <img src="assets/samarkan-normal.png" className="mx-5"></img>
             <a
               className="text-sm font-bold leading-relaxed inline-block mx-1 mr-4 whitespace-no-wrap uppercase text-black"
               href="#pablo"
