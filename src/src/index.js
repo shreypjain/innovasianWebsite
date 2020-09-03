@@ -6,7 +6,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App style="./App.css"/>
+    <App style={require("./App.css")}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

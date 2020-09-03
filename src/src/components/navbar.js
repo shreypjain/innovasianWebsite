@@ -17,14 +17,9 @@ function Navbar() {
         <div className="container flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="inline-flex">
-            <NavLink to="/"></NavLink>
-            <img src={require("../assets/samarkan-normal.png")} className="mx-5 h-12 w-48"/>
-            {/* <a
-              className="text-sm font-bold leading-relaxed inline-block mx-1 mr-4 whitespace-no-wrap uppercase text-black"
-              href="#pablo"
-            >
-              Innovasian
-            </a> */}
+            <NavLink to="/">
+            <img src={require("../assets/samarkan-normal.png")} alt={require('../assets/shashank.jpg')} className="mx-5 h-12 w-48"/>
+            </NavLink>
             </div>
             <button
               className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -57,7 +52,6 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
                 >
                   <i className="fab fa-twitter text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
                   <NavLink to="">
@@ -69,7 +63,6 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
                   <NavLink to="/contact">
@@ -81,7 +74,6 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
                   <NavLink to="">
