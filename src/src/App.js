@@ -12,9 +12,9 @@ function App() {
     <Navbar/>
         <Switch>
           {/* all of the routes and the pages will go here */}
-          <Route path="/"component={Home}/>
           <Route path="/contact" component={Contact}/>
-       </Switch>
+          <Route path="/"component={Home}/>
+        </Switch>
     </BrowserRouter>
   )
 }

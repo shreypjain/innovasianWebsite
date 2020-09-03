@@ -1,20 +1,41 @@
 import React from 'react'
 import NavLink from 'react-router-dom'
 
+const bgStyle={
+    background: "linear-gradient(90.05deg, #FB9600 16.94%, #FFFFFF 88.08%)",
+    opacity: "0.95",
+    position: "relative",
+    top: "0",
+    right: "0",
+    left: "0",
+}
+
 function Contact() {
     return(
-        <div className="mt-20">
+            <div className="mt-24">
                 <div className="mx-auto shadow-ld rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative">
                     <form className="mt-8">
+                    <div className="mt-5">
+                            <label className="mt-6 text-center text-xl leading-9 font-extrabold text-gray-900">Name: </label>
+                            <input
+                                className="appearance-none rounded relative block w-full px-3 py-2 border bg-gray-200 border-orange-500 placeholder-gray-600 text-gray-900 rounded-t-md focus:outline-none focus:shadow-outline-gray focus:border-gray-300 focus:z-10 sm:text-sm sm:leading-5"
+                                aria-label="name"
+                                name="name"
+                                type="text"
+                                required
+                                placeholder="Shrey Patel"
+                            >
+                            </input>
+                        </div>
                         <div className="mt-5">
-                            <label className="mt-6 text-center text-xl leading-9 font-extrabold text-gray-900">Your Email: </label>
+                            <label className="mt-6 text-center text-xl leading-9 font-extrabold text-gray-900">Email: </label>
                             <input
                                 className="appearance-none rounded relative block w-full px-3 py-2 border bg-gray-200 border-orange-500 placeholder-gray-600 text-gray-900 rounded-t-md focus:outline-none focus:shadow-outline-gray focus:border-gray-300 focus:z-10 sm:text-sm sm:leading-5"
                                 aria-label="email"
                                 name="email"
                                 type="text"
                                 required
-                                placeholder="E.g. shreypjain@gmail.com"
+                                placeholder="shreyp@gmail.com"
                             >
                             </input>
                         </div>
@@ -22,8 +43,8 @@ function Contact() {
                             <label className="mt-6 text-center text-xl leading-9 font-extrabold text-gray-900">Feedback </label>
                             <textarea
                                 className="appearance-none rounded relative block w-full px-3 py-2 border bg-gray-200 border-orange-500 placeholder-gray-600 text-gray-900 rounded-t-md focus:outline-none focus:shadow-outline-gray focus:border-gray-300 focus:z-10 sm:text-sm sm:leading-5"
-                                aria-label="email"
-                                name="email"
+                                aria-label="feedback"
+                                name="feedback"
                                 type="text"
                                 rows="5"
                                 cols="33"

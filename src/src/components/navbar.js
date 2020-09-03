@@ -48,7 +48,7 @@ function Navbar() {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
-                    <NavLink to="/contact">
+                    <NavLink to="/">
                     Tickets
                     </NavLink>
                     </span>
@@ -72,7 +72,7 @@ function Navbar() {
                   href="#pablo"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
-                  <NavLink to="">
+                  <NavLink to="/contact">
                     Contact Us
                     </NavLink>
                   </span>
