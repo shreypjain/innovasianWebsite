@@ -14,12 +14,12 @@ function Home() {
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-semibold">Innovasian</h1>
             <h3 className="text-xl md:text-2xl">
-              Hello
+              A MediterrAsian Club
             </h3>
-            <div className="mt-3">
+            <div className="mt-3 text-2xl">
               <NavLink
-                to="/coaches"
-                className="bg-orange-400 hover:bg-orange-500 transition duration-200 ease-out text-white py-1 px-2 rounded-md shadow-md"
+                to="/contact"
+                className="bg-orange-400 hover:bg-orange-500 transition duration-200 ease-out text-white py-3 px-6 rounded-md shadow-md"
               >
                 Buy a ticket
               </NavLink>

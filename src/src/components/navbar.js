@@ -46,10 +46,9 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-black opacity-75"></i><span className="ml-2">
-                    <NavLink to="">
+                    <NavLink to="/contact">
                     Tickets
                     </NavLink>
                     </span>
