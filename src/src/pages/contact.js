@@ -1,15 +1,6 @@
 import React from 'react'
 import NavLink from 'react-router-dom'
 
-const bgStyle={
-    background: "linear-gradient(90.05deg, #FB9600 16.94%, #FFFFFF 88.08%)",
-    opacity: "0.95",
-    position: "relative",
-    top: "0",
-    right: "0",
-    left: "0",
-}
-
 function Contact() {
     return(
             <div className="mt-24">

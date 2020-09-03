@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/home"
 import Contact from "./pages/contact"
+import About from "./pages/about"
 
 import Navbar from "./components/navbar"
 
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           {/* all of the routes and the pages will go here */}
           <Route path="/contact" component={Contact}/>
+          <Route path="/about" component={About}/>
           <Route path="/"component={Home}/>
         </Switch>
     </BrowserRouter>
