@@ -13,7 +13,7 @@ function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
       <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-4 navbar-expand-lg mb-3" style={navbarStyle}>
+      <nav className="sticky flex flex-wrap items-center justify-between px-2 py-4 navbar-expand-lg mb-3" style={navbarStyle}>
         <div className="container flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="inline-flex">
