@@ -4,16 +4,12 @@ import { NavLink } from 'react-router-dom'
 const navbarStyle = {
     background: "linear-gradient(90.05deg, #FB9600 16.94%, #FFFFFF 88.08%)",
     opacity: ".95",
-    position: "fixed",
-    top: "0",
-    right: "0",
-    left: "0",
   };
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
       <div className="">
-      <nav className="sticky flex flex-wrap items-center justify-between px-2 py-4 navbar-expand-lg mb-3" style={navbarStyle}>
+      <nav className="flex flex-wrap items-center justify-between px-2 py-4 navbar-expand-lg" style={navbarStyle}>
         <div className="container flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="inline-flex">

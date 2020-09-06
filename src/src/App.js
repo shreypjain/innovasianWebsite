@@ -4,20 +4,24 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/home"
 import Contact from "./pages/contact"
 import About from "./pages/about"
+import Ticket from "./pages/ticket"
 
 import Navbar from "./components/navbar"
 
 function App() {
   return (
-    <BrowserRouter>
-    <Navbar/>
-        <Switch>
-          {/* all of the routes and the pages will go here */}
-          <Route path="/contact" component={Contact}/>
-          <Route path="/about" component={About}/>
-          <Route path="/"component={Home}/>
-        </Switch>
-    </BrowserRouter>
+    <div className="flex flex-col h-screen">
+      <BrowserRouter>
+      <Navbar/>
+          <Switch>
+            {/* all of the routes and the pages will go here */}
+            <Route path="/contact" component={Contact}/>
+            <Route path="/about" component={About}/>
+            <Route path="/ticket" component={Ticket}/>
+            <Route path="/"component={Home}/>
+          </Switch>
+      </BrowserRouter>
+    </div>
   )
 }
 

@@ -3,10 +3,10 @@ import NavLink from 'react-router-dom'
 
 function Contact() {
     return(
-            <div className="mt-24">
+            <div className="">
                 <div className="mx-auto shadow-ld rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative">
-                    <form className="mt-8">
-                    <div className="mt-5">
+                    <form className="">
+                    <div className="">
                             <label className="mt-6 text-center text-xl leading-9 font-extrabold text-gray-900">Name: </label>
                             <input
                                 className="appearance-none rounded relative block w-full px-3 py-2 border bg-gray-200 border-orange-500 placeholder-gray-600 text-gray-900 rounded-t-md focus:outline-none focus:shadow-outline-gray focus:border-gray-300 focus:z-10 sm:text-sm sm:leading-5"

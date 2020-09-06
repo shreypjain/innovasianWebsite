@@ -10,8 +10,8 @@ const textStyle={
 
 function About() {
     return(
-        <div className="mt-36">
-            <div className="flex mt-24 shadow-lg rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative overflow-hidden">
+        <div className="flex-1 overflow-y-auto">
+            <div className="flex shadow-lg rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative overflow-hidden">
                 <div className="w-1/4">
                     <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/shrey.jpg")} alt={require("../assets/shashank.jpg")}/>
                 </div>

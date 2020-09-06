@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Home() {
     return(
-        <div className=" ">
+        <div className="">
       <section className="">
         <img
           className="object-cover object-center w-full h-screen"
