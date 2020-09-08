@@ -6,6 +6,7 @@ import Contact from "./pages/contact"
 import About from "./pages/about"
 import Sponsor from "./pages/sponsor"
 
+import Footer from "./components/footer"
 import Navbar from "./components/navbar"
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/sponsor" component={Sponsor}/>
             <Route path="/"component={Home}/>
           </Switch>
+        <Footer/>
       </BrowserRouter>
     </div>
   )
