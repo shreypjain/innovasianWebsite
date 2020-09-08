@@ -9,7 +9,12 @@ const bgStyle = {
 function Footer() {
     return (
       <footer className="">
-        <div className="w-full sm:mx-auto"></div>
+        <div className="w-full sm:mx-auto">
+          <div className="flex w-1/3">
+            <h2 className="text-xl">Social Media Links</h2>
+
+          </div>
+        </div>
       </footer>
     )
 }
