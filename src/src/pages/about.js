@@ -14,7 +14,7 @@ function About() {
             <h2 className="p-1 text-3xl underline font-semibold text-center">Innovasian Board</h2>
             <div className="flex shadow-lg rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative overflow-hidden">
                 <div className="w-1/4">
-                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/ohm.jpg")} alt={require("../assets/shashank.jpg")}/>
+                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/ohm.jpg")} alt={require("../assets/shashank.jpg")}></img>
                 </div>
                 <div className="w-3/4 bg-white">
                     <h2 className="text-3xl text-purple-500 fond-bold">Shrey Jain</h2>
