@@ -11,9 +11,10 @@ const textStyle={
 function About() {
     return(
         <div className="flex-1 overflow-y-auto">
+            <h2 className="p-1 text-3xl underline font-semibold text-center">Innovasian Board</h2>
             <div className="flex shadow-lg rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative overflow-hidden">
                 <div className="w-1/4">
-                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/shrey.jpg")} alt={require("../assets/shashank.jpg")}/>
+                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/ohm.jpg")} alt={require("../assets/shashank.jpg")}/>
                 </div>
                 <div className="w-3/4 bg-white">
                     <h2 className="text-3xl text-purple-500 fond-bold">Shrey Jain</h2>
@@ -22,12 +23,12 @@ function About() {
                             <a className="text-orange-500 font-bold py-1 px-2">Public Relations</a>
                         </div>
                     </div>
-                    <p className="text-gray-500 mt-2">I am the shows Public Relations coordinator, I made this website, and I bow down to NAV. I hope you enjoy this dumb ass show because I carried.</p>
+                    <p className="text-gray-500 mt-2">My good name Ohm Jariwala . I am this years backstage coordinator and I’ve been in the club for 3 years. </p>
                 </div>
             </div>
             <div className="flex mt-2 shadow-lg rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative overflow-hidden">
                 <div className="w-1/4">
-                    <img className="mx-4 h-36 w-48 py-4 rounded-lg sm:" src={require("../assets/shashank.jpg")} alt={require("../assets/shashank.jpg")}/>
+                    <img className="mx-4 h-36 w-48 py-4 rounded-lg sm:" src={require("../assets/krishi.jpg")} alt={require("../assets/shashank.jpg")}/>
                 </div>
                 <div className="w-3/4 bg-white">
                     <h2 className="text-3xl text-purple-500 fond-bold">Shashank Vemuri</h2>
@@ -41,7 +42,7 @@ function About() {
             </div>
             <div className="flex mt-2 shadow-lg rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative overflow-hidden">
                 <div className="w-1/4">
-                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/shrey.jpg")} alt={require("../assets/shashank.jpg")}/>
+                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/zehra.jpg")} alt={require("../assets/shashank.jpg")}/>
                 </div>
                 <div className="w-3/4 bg-white">
                     <h2 className="text-3xl text-purple-500 fond-bold">Shrey Jain</h2>
@@ -55,7 +56,7 @@ function About() {
             </div>
             <div className="flex mt-2 shadow-lg rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative overflow-hidden">
                 <div className="w-1/4">
-                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/shrey.jpg")} alt={require("../assets/shashank.jpg")}/>
+                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/navya.jpg")} alt={require("../assets/shashank.jpg")}/>
                 </div>
                 <div className="w-3/4 bg-white">
                     <h2 className="text-3xl text-purple-500 fond-bold">Shrey Jain</h2>
@@ -69,7 +70,7 @@ function About() {
             </div>
             <div className="flex mt-2 shadow-lg rounded-b-lg sm:mx-auto md:mx-auto max-w-full sm:max-w-full md:max-w-5xl relative overflow-hidden">
                 <div className="w-1/4">
-                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/shrey.jpg")} alt={require("../assets/shashank.jpg")}/>
+                    <img className="mx-4 h-36 w-48 py-4 rounded-lg" src={require("../assets/kavya.jpg")} alt={require("../assets/shashank.jpg")}/>
                 </div>
                 <div className="w-3/4 bg-white">
                     <h2 className="text-3xl text-purple-500 fond-bold">Shrey Jain</h2>
